@@ -1,0 +1,118 @@
+.post {
+    display: flex;
+    align-items: flex-start;
+    border-bottom: 1px solid var(--twitter-background);
+    padding-bottom: 10px;
+  }
+  
+  .post__body {
+    flex: 1;
+    padding: 10px;
+  }
+  
+  .post__body>img {
+    border-radius: 20px;
+    width: contain;
+  }
+  
+  .post__footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 10px;
+    margin-top: 10px;
+  }
+  
+  .post__footer__icon:hover {
+    cursor: pointer;
+    color: var(--twitter-color);
+  }
+  
+  .post__headerDescription {
+    margin-bottom: 10px;
+    font-size: 15px;
+  }
+  
+  .post__headerText>h3 {
+    font-size: 15px;
+    margin-bottom: 5px;
+  }
+  
+  .post__badge {
+    font-size: 14px !important;
+    color: var(--twitter-color);
+  }
+  
+  .post__headerSpecial {
+    font-weight: 600;
+    font-size: 12px;
+    color: gray;
+  }
+  
+  .post__avatar {
+    padding: 20px;
+  }
+
+  .post_audio{
+    width: 90%;
+    margin-top: 10px;
+    border-radius: 10px;
+  }
+
+  .container {
+  margin: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  max-width: 500px;
+}
+
+.video {
+  width: 100%;
+  border-radius: 8px;
+  cursor: pointer;
+  height: auto;
+}
+
+.progressbar-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  position: relative;
+
+}
+.progressbar-container > input{
+  width: 90%;;
+}
+
+.progressbar {
+  width: 95%;
+  margin-top: 8px;
+  appearance: "none";
+  height: 1px;
+  border-radius: 5px;
+  background: #ccc;
+  outline: none;
+  cursor: pointer;
+} 
+
+.progressbar-time{
+  align-self: flex-start;
+  margin-top: 4px;
+  margin-left: 5px;
+}
+
+.comment-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  border: 1px solid #e9e8e8;
+  border-radius: 10px;
+  height: 20vh;
+  background-color: rgb(207, 207, 207);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0.1);
+  justify-content: center;
+}

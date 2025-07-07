@@ -1,0 +1,147 @@
+.tweetBox {
+  padding-bottom: 10px;
+  border-bottom: 8px solid var(--twitter-background);
+  padding-right: 10px;
+}
+
+.tweetBox > form {
+  display: flex;
+  flex-direction: column;
+}
+
+.tweetBox__input {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.tweetBox__input > input {
+  flex: 1;
+  margin-left: 15px;
+  font-size: 20px;
+  border: none;
+  margin-top: 0px;
+}
+
+.tweetBox__imageInput {
+  border: none;
+  padding: 5px 20px;
+}
+
+.imageIcon_container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.imageIcon_tweetButton {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.tweetBox__tweetButton {
+  background-color: var(--twitter-color) !important;
+  border: none !important;
+  color: white !important;
+  font-weight: 700 !important;
+  text-transform: inherit !important;
+  border-radius: 50px !important;
+  width: 100px;
+  height: 40px !important;
+}
+
+.imageIcon {
+  color: var(--twitter-color);
+  padding-left: 25px;
+  cursor: pointer;
+}
+
+.imageInput {
+  display: none;
+}
+
+.micIcon_container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.micIcon {
+  color: var(--twitter-color);
+  padding-left: 25px;
+  background: white;
+  border: none;
+  cursor: pointer;
+}
+
+.mictext {
+  color: var(--twitter-color);
+  padding-left: 25px;
+  font-size: 20px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.audio_wrapper {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #f5f5f5;
+  margin: 10px;
+}
+
+audio {
+  height: 40px;
+  outline: none;
+  width: 250px;
+}
+
+.hidden {
+  display: none;
+}
+
+.container {
+  margin: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  
+}
+
+.video {
+  width: 100%;
+  border-radius: 8px;
+  cursor: pointer;
+  height: auto;
+}
+
+.progressbar-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  position: relative;
+
+}
+.progressbar-container > input{
+  width: 90%;;
+}
+
+.progressbar {
+  width: 95%;
+  margin-top: 8px;
+  appearance: "none";
+  height: 1px;
+  border-radius: 5px;
+  background: #ccc;
+  outline: none;
+  cursor: pointer;
+} 
+
+.progressbar-time{
+  align-self: flex-start;
+  margin-top: 4px;
+  margin-left: 5px;
+}
