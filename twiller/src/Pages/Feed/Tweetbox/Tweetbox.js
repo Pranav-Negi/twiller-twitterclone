@@ -442,8 +442,6 @@ const Tweetbox = () => {
 
       {otpsent && (
         <OtpPopup
-          otp={otp}
-          setotp={setotp}
           onSubmit={handleOTPSubmit}
           onClose={handleclose}
         />
