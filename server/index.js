@@ -3,7 +3,7 @@ const { MongoClient, ServerApiVersion } = require("mongodb");
 const express = require("express");
 const cors = require("cors");
 const uri =
-"mongodb+srv://Admin:qwerty98710@twiller.e0xnj0s.mongodb.net/?retryWrites=true&w=majority&appName=Twiller";
+"";
 const port = 5000;
 const app = express();
 app.use(express.json());
